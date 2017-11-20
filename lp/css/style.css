@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+/*.perspective {
+    -webkit-perspective: 1000px;
+       -moz-perspective: 1000px;
+           -ms-perspective: 1000px;
+         -o-perspective: 1000px;
+            perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+         -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+.company {
+    position: relative;
+    display: block;
+    -webkit-transform-origin: 50% 100%;
+       -moz-transform-origin: 50% 100%;
+        -ms-transform-origin: 50% 100%;
+         -o-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    -webkit-transform: rotateX(90deg);
+       -moz-transform: rotateX(90deg);
+        -ms-transform: rotateX(90deg);
+         -o-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+}*/
+
+#content-1,
+#content-2,
+#content-3,
+#content-4,
+#content-5,
+#content-6,
+#content-7,
+#content-8,
+#content-9,
+#content-10,
+#content-11,
+#content-12,
+#content-13,
+#content-14,
+#content-15,
+#content-16,
+#content-17,
+#content-18,
+#content-19,
+#content-20,
+#content-21,
+#content-22,
+#content-23,
+#content-24 {
+    position: absolute;
+}
+
+@font-face{
+  font-family: 'mplus-2p-regular';
+  src: url('../fonts/mplus-2p-regular.eot');
+  src: url('../fonts/mplus-2p-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/mplus-2p-regular.woff') format('woff'),
+       url('../fonts/mplus-2p-regular.ttf') format('truetype');
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.page-top {
+	z-index: 4;
+	display: none;
+    position: fixed;
+    right: 5%;
+    bottom: 0px;
+    width: 7%;
+}
+
+.page-top img{
+	width:100%;
+}
+
+body{
+	font-family:  'mplus-2p-regular';
+}
+
+/*header*/
+header{
+	height: 60px;
+	background-color:#000000;
+}
+
+header ul{
+	height: 60px;
+	display: table;
+	position: relative;
+	left: 75%;
+}
+
+header li{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*top*/
+
+#top{
+	background-image: url(../img/_fern-1250910_1280.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+
+.layerTransparent{
+	background-color: rgba(255,255,255,0.8);
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+
+.top-left{
+	display: inline-block;
+	width: 55%;
+}
+
+.links{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	padding-top: 150px;
+	padding-left: 3%;
+	font-size: 24px;
+}
+
+.links a{
+	text-decoration: none;
+	link:#red;
+}
+
+.links a:link{
+	color:#808080;
+}
+
+.links a:hover{
+	color:#000000;
+}
+
+.links a:visited{
+	color:#4B0082;
+}
+
+.links ul{
+	float: right;
+	padding-right: 10%;
+}
+
+.links li{
+	margin-top: 8px;
+}
+
+.sankaku{
+	font-size: 18px;
+}
+
+.logo{
+	padding-top: 150px;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.logo p{
+	margin-top: 20px;
+	margin-left: 3%;
+}
+
+.news{
+	margin-top: 130px;
+}
+
+.news h2{
+	font-weight: bold;
+	margin-left: 3%;
+}
+
+.news iframe{
+	margin-bottom: 185px;
+	margin-left: 3%;
+}
+
+/*繋ぎの矢印*/
+.direction{
+	z-index: 3;
+	text-align: center;
+	margin-top:15px;
+	margin-bottom: 30px;
+}
+
+
+/*背景画像の設定*/
+/*企業*/
+#business .haikei-gazou{
+	background-image: url(../img/architecture-1448221_1280.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% top;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*学習*/
+#learning .haikei-gazou{ 
+	background-image: url(../img/startup-593341_1280.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom:50px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% top;
+}
+
+#food .haikei-gazou{
+	background-image: url(../img/carrot-1085063_1280.jpg);
+	background-size: cover;
+	padding-top:50px;
+	padding-bottom:50px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% top;
+}
+
+#fashion .haikei-gazou{
+	background-image: url(../img/woman-1149909_1920.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-attachment: fixed;
+	background-position: 50% top;
+}
+
+#health .haikei-gazou{
+	background-image: url(../img/greens-266560_1280.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-attachment: fixed;
+	background-position: 50% top;
+
+}
+
+#information .haikei-gazou{
+	background-image: url(../img/macbook-336704_1280.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% top;
+}
+
+#construction .haikei-gazou{
+	background-image: url(../img/table-setting-1382492_1280.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% top;
+}
+
+#leisure .haikei-gazou{
+	background-image: url(../img/patience-games-232288_1280.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% top;
+}
+
+/*企業～ゲーム・レジャーまでのレイアウト*/
+.logo-text{
+	z-index: 2;
+	margin-left: 13%;
+	width: 90%;
+	background-color: #ffffff;
+}
+
+.company{
+	height: 240px;
+	z-index: 1;
+	width: 75%;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.8);
+	padding: 3%;
+	margin-top:3%;
+	margin-bottom: 2%;
+}
+
+@media all and (-ms-high-contrast:none){
+  *::-ms-backdrop, .company { height: 280px } /* IE11 */
+}
+
+@media all and (-ms-high-contrast:none){
+  .company { height: 280px } /* IE10 */
+}
+
+.company_gazou{
+	display: inline-block;
+	width: 43%;
+	vertical-align: top;
+}
+
+#company_gazou_KiRaLi{
+	height: 200px;
+}
+
+.company_right{
+	display: inline-block;
+	width: 52%;
+	padding: 0 2% 0 2%;
+	vertical-align: top;
+}
+
+.company_name{
+	font-size: 28px;
+	display: block;
+}
+
+.company_url{
+	display: block;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.company_text{
+	display: block;
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+/*footer*/
+footer{
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+

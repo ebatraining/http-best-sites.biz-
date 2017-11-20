@@ -1,0 +1,303 @@
+body {
+	margin: 0 ;
+	padding: 0;
+	font-size: 10px;
+	color: rgb(30,30,30);
+	letter-spacing: 0px;
+	line-height:1.2;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo;
+	-webkit-animation: loaded 2000ms;
+	-moz-animation: loaded 2000ms;
+	background: rgb(255,255,255);
+}
+
+div, section {
+	margin:0;
+}
+
+ul, li, a, p {
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color: rgb(30,30,30);
+}
+
+ul:visited,
+li:visited,
+a:visited {
+	color: rgb(30,30,30);
+}
+
+li:focus,
+a:focus {
+    outline: none;
+}
+
+h2, h3, dl, dt, dd {
+	margin: 0;
+}
+
+
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+	content: ",";
+}
+
+
+
+
+#wrapper {
+	margin: -15px auto;
+	width: 100%;
+}
+
+#title {
+	width: 90%;
+	margin: 0px auto 10px;
+}
+
+#title h1 img {
+	margin: 15px 0 0px 15px;
+}
+
+#title p {
+	margin: -10px 0 0px 15px;
+	color: rgb(0,140,255);
+}
+
+
+#contents {
+	width: 90%;
+	/*old*/
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+	display: box;
+	
+	/*new*/
+	display: -webkit-flexbox;
+	display: -moz-flexbox;
+	display: -ms-flexbox;
+	display: flexbox;
+	
+	margin: 0px auto 35px;
+	border-radius: 10px;
+	background: rgb(235,246,255);
+}
+
+
+/*---左---*/
+#categry {
+	/*old*/
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	-ms-box-ordinal-group: 1;
+	box-ordinal-group: 1;
+	
+	/*new*/
+	-webkit-flex-order: 1;
+	-moz-flex-order: 1;
+	-ms-flex-order: 1;
+	flex-order: 1;
+	
+	
+
+	width: 100px;
+	margin: 25px -5px 0 15px;
+}
+
+#categry h3 {
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: rgb(0,140,255);
+}
+
+#nav {
+	margin-bottom: 25px;
+}
+
+#nav li {
+	width: 100px;
+	height: 25px;
+}
+
+#nav li a {
+	display:block;
+	padding: 6px 0px 5px;
+	font-size: 10px;
+	color: rgb(0,140,255);
+}
+
+
+
+/*---右---*/
+#main {
+	/*old*/
+	-webkit-box-ordinal-group: 2;
+	-moz-box-ordinal-group: 2;
+	-ms-box-ordinal-group: 2;
+	box-ordinal-group: 2;
+	
+	/*new*/
+	-webkit-flex-order: 2;
+	-moz-flex-order: 2;
+	-ms-flex-order: 2;
+	flex-order: 2;
+	
+	/*old*/
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+	box-flex: 1;
+	
+	/*new*/
+	width: -webkit-flex(1);
+	width: -moz-flex(1);
+	width: -ms-flex(1);
+	width: flex(1);
+	
+	margin: 25px 15px 25px 10px;
+	background: rgb(255,255,255);
+	border-radius: 8px;
+	
+}
+
+#subtit {
+	padding: 10px;
+	font-size:14px;
+	color: rgb(255,255,255);
+	font-weight: normal;
+	border-radius: 8px 8px 0 0;
+	background: rgb(0,140,255);
+}
+
+
+
+/*---syousai---*/
+#syousai {
+	font-size: 12px;
+}
+
+#syousai dt {
+	margin: 0px 5px 5px 10px;
+	background: ;
+}
+#syousai dt p {
+	font-weight: bold;
+	color: rgb(0,140,255);
+}
+
+#syousai dt:nth-child(1) {
+	margin: 10px 0 0 10px;
+	width: 90px;
+	height: 90px;
+	border: 2px solid rgb(75,175,255);
+	border-radius: 6px;
+}
+
+#syousai dt img {
+	width: 70px;
+	margin: 10px;
+}
+
+#syousai dd {
+	margin: 0 5px 25px 10px;
+	margin-left: 10px;
+	margin-bottom: 25px;
+}
+
+#syousai dd p {
+	margin-bottom: 5px;
+	font-weight: bold;
+	line-height: 1.4;
+	color: rgb(0,140,255);
+}
+
+#syousai dd a {
+	font-weight: bold;
+	color: rgb(0,140,255);
+}
+
+#syousai dd:nth-child(2) {
+	margin-top: 20px;
+}
+
+#syousai dt:nth-child(2n+5) {
+	height: px;
+	background: ;
+}
+
+#syousai dd:nth-child(2n+6) {
+	height: px;
+	background: ;
+}
+
+
+
+
+/*---footer---*/
+
+#footer {
+	clear: both;
+}
+#copy {
+	margin: 0px auto 15px;
+	width: 90%;
+	height: 30px;
+	background: rgb(0,140,255);
+}
+
+#copyright {
+	font-size: 10px;
+	text-align: center;
+	padding: 7px 5px 0 0;
+	letter-spacing: 1px;
+	color: rgb(255,255,255);
+}
+
+#foot {
+	width: 420px;
+	margin: 10px auto;
+}
+
+#foot p {
+	float: left;
+	margin: 0px 20px 0px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#foot p a {
+	color: rgb(0,140,255);
+}
+
+#foot p:nth-child(3) {
+	margin-right: 0px;
+}
+
+
+
+@-webkit-keyframes loaded {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes loaded {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

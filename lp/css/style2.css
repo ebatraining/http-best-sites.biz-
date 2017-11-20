@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 767px) {
+
+header ul{
+	left: 0%;
+	margin:0 auto;
+}
+
+.logo{
+	padding-top: 50px;
+}
+
+.top-left{
+	display: block;
+	width: 90%;
+	margin:0 auto;
+}
+
+.news{
+	margin-top: 20px;
+}
+
+.news iframe{
+	width: 95%;
+	text-align: center;
+	margin-bottom: 0px;
+	height: 100px;
+}
+
+.links{
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 0px;
+	font-size: 20px;
+	padding-bottom: 100px;
+}
+
+.links ul{
+	float: left;
+	margin-left:5%; 
+}
+
+.links li{
+	float: left;
+	margin-left:5%; 
+}
+
+.logo-text{
+	margin-left: 3%;
+	width: 70%;
+}
+
+.logo-text img{
+	width: 100%;
+}
+
+#business-title,
+#learning-title,
+#food-title
+{
+	width: 30%;
+}
+
+#health-title,
+#information-title{
+	width: 50%;
+}
+
+.company{
+	height:380px;
+	z-index: 1;
+	width: 90%;
+	padding: 3%;
+	margin-top:3%;
+	margin-bottom: 2%; 
+}
+
+.company_gazou{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	padding: 2.5%;
+}
+
+#company_gazou_KiRaLi{
+	height: 170px;
+}
+
+.company_right{
+	display: block;
+	width: 100%;
+	padding: 0 2% 0 2%;
+	vertical-align: top;
+}
+
+}

@@ -1,0 +1,54 @@
+﻿@charset "UTF-8";
+
+.logo{display: block;
+ margin-left: auto;
+ margin-right: auto}
+
+.one {width: 600px;
+	  margin-left: auto;
+	  margin-right: auto}
+
+.two {width: 600px;
+	  margin-left: auto;
+      margin-right: auto}
+
+
+.example1 {width: 20px;
+	       margin-left:auto;
+           margin-right: auto}
+
+.three {font-color: #ff3300;
+	    width: auto;
+	    margin-left: auto;
+	    margin-right: auto}
+
+
+.three, th, td {border: solid 1px #000}
+
+.three, table {border-collapse: collapse}
+
+.three, td {white-space: nowrap}
+
+span {color: #ff0000}
+
+.hissu {text-align: center}
+
+table {margin-left: auto;
+       margin-right: auto}
+
+ .thankyou {text-align: center}
+
+/*ページング*/
+.paging {display:inline-block;
+         list-style:none;}
+
+
+ /*コピーライト*/
+footer {color: #FFF;
+	background: rgb(0,140,255);
+	height: 30px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+    text-align: center}
+	

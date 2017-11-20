@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+	margin: 2%;
+	font-family:  'mplus-2c-regular';
+	font-size: 12px;
+	line-height: 22px;
+}
+
+@font-face{
+  font-family: 'mplus-2c-regular';
+  src: url('../fonts/mplus-2c-regular.eot');
+  src: url('../fonts/mplus-2c-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/mplus-2c-regular.woff') format('woff'),
+       url('../fonts/mplus-2c-regular.ttf') format('truetype');
+}
