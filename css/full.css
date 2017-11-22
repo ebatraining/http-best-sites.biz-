@@ -78,13 +78,13 @@ h2, h3, dl, dt, dd {
 	display: -moz-box;
 	display: -ms-box;
 	display: box;
-	
+
 	/*new*/
 	display: -webkit-flexbox;
 	display: -moz-flexbox;
 	display: -ms-flexbox;
 	display: flexbox;
-	
+
 	margin: 0px auto 35px;
 	border-radius: 10px;
 	background: rgb(235,246,255);
@@ -98,14 +98,14 @@ h2, h3, dl, dt, dd {
 	-moz-box-ordinal-group: 1;
 	-ms-box-ordinal-group: 1;
 	box-ordinal-group: 1;
-	
+
 	/*new*/
 	-webkit-flex-order: 1;
 	-moz-flex-order: 1;
 	-ms-flex-order: 1;
 	flex-order: 1;
-	
-	
+
+
 
 	width: 140px;
 	margin: 25px 0 0 35px;
@@ -122,7 +122,7 @@ h2, h3, dl, dt, dd {
 }
 
 #nav li {
-	width: 100px;
+	width: 125px;
 	height: 25px;
 }
 
@@ -133,7 +133,11 @@ h2, h3, dl, dt, dd {
 	color: rgb(0,140,255);
 }
 
+#nav li a:hover{
+	letter-spacing: 3px;
+	background-color: rgba(255, 255, 255, .2);
 
+}
 
 /*---右---*/
 #main {
@@ -142,29 +146,29 @@ h2, h3, dl, dt, dd {
 	-moz-box-ordinal-group: 2;
 	-ms-box-ordinal-group: 2;
 	box-ordinal-group: 2;
-	
+
 	/*new*/
 	-webkit-flex-order: 2;
 	-moz-flex-order: 2;
 	-ms-flex-order: 2;
 	flex-order: 2;
-	
+
 	/*old*/
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
 	-ms-box-flex: 1;
 	box-flex: 1;
-	
+
 	/*new*/
 	width: -webkit-flex(1);
 	width: -moz-flex(1);
 	width: -ms-flex(1);
 	width: flex(1);
-	
+
 	margin: 25px;
 	background: rgb(255,255,255);
 	border-radius: 8px;
-	
+
 }
 
 #subtit {
