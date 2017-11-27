@@ -10,6 +10,26 @@
 <title>ベストサイト.biz | レンタル事業</title>
 <link rel="stylesheet" media="screen and (min-width: 481px)" href="css/full.css" type="text/css">
 <link rel="stylesheet" media="screen and (max-width: 480px)" href="css/small.css" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+    // ページurlを"/"で区切った時の文字列を取得
+    var url = location.pathname.split("/")[6];
+    var navList = $("#nav a");
+
+    // 各aタグに対して設定
+    navList.each(function(){
+        // aタグに設定したurlで"/"で区切った３番目の文字列を取得
+        var href = $(this).attr("href");
+
+        // 変数hrefと変数urlの中身が一致していれば、aタグにクラスactiveをつける
+        if( href == url ) {
+            $(this).addClass("current");
+        };
+    });
+});
+</script>
 </head>
 
 <body>
@@ -18,7 +38,7 @@
 		<h1><a href="./"><img src="./img/bestsite_logo.png" width="200px" /></a></h1>
 		<p>ベストサイトは、運営者がベストだと思えるサイトを、皆様にご紹介しております。</p>
 	</div>
-	
+
 	<div id="contents">
 		<div id="categry">
 			<h3>業界から探す</h3>
@@ -34,10 +54,10 @@
 					<li><a href="game.html">ゲーム</a></li>
 					<li><a href="syokuhin.html">食品</a></li>
                     <li><a href="leisure.html">レジャー</a></li>
-                    <li><a href="mm.html">機械製造</a></li>                    
+                    <li><a href="mm.html">機械製造</a></li>
 				</div>
 		</div>
-		
+
 		<div id="main" class="clearfix">
 			<h2 id="subtit">レンタル事業</h2>
 			<div class="capchaback">
@@ -48,8 +68,8 @@
 			</div>
 		</div><!---main--->
 	</div><!---contents--->
-	
-	
+
+
 	<!---フッター--->
 	<div id="footer">
 		<div id="copy">
