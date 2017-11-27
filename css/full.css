@@ -157,7 +157,7 @@ transition: 0.5s;
 
 #nav li a.current{
 	letter-spacing: 3px;
-	background:#c6e2ff;
+	background:#7fbfff;
 	background-position: -100% 100%;
 	transform: scale(1.2);
 	text-align: center;
