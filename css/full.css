@@ -155,7 +155,18 @@ transition: 0.5s;
 -ms-transform: scale(1.1,1.1);
 }
 
-
+#nav li a.current{
+	letter-spacing: 3px;
+	background:#c6e2ff;
+	background-position: -100% 100%;
+	transform: scale(1.2);
+	text-align: center;
+	font-weight:bold;
+	-moz-transform: scale(1.1,1.1);
+-webkit-transform: scale(1.1,1.1);
+-o-transform: scale(1.1,1.1);
+-ms-transform: scale(1.1,1.1);
+}
 
 /*---右---*/
 #main {
