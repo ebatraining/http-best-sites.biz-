@@ -11,7 +11,7 @@
 <link rel="stylesheet" media="screen and (min-width: 481px)" href="css/full.css" type="text/css">
 <link rel="stylesheet" media="screen and (max-width: 480px)" href="css/small.css" type="text/css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript">
+<!--script type="text/javascript">
 $(document).ready(function() {
 
     // ページurlを"/"で区切った時の文字列を取得
@@ -29,8 +29,19 @@ $(document).ready(function() {
         };
     });
 });
+</script-->
+<script>
+	$(function(){
+		$('#nav li a').each(function(){
+			var $href = $(this).attr('href');
+			if(location.href.match($href)) {
+				$(this).addClass('current');
+			} else {
+				$(this).removeClass('current');
+			}
+		});
+	});
 </script>
-
 </head>
 
 <body>
